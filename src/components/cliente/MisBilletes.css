@@ -1,0 +1,40 @@
+.tabla-billetes {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-billetes th {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 18px;
+  background-color: #f8fafc;
+  color: var(--texto-secundario);
+}
+
+.tabla-billetes td {
+  padding: 18px;
+  border-top: 1px solid var(--borde);
+  font-size: 14px;
+}
+
+.tabla-billetes tr:hover {
+  background-color: #f9fafb;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge.activo {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--exito);
+}
+
+.badge.cancelado {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--peligro);
+}

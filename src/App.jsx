@@ -1,11 +1,8 @@
-import Dashboard from "./pages/Dashboard";
+import Layout from './components/layout/Layout';
+import './estilos/global.css';
 
 function App() {
-  return (
-    <div>
-      <Dashboard />
-    </div>
-  );
+  return <Layout />;
 }
 
 export default App;

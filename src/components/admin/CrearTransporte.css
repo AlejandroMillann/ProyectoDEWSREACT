@@ -1,0 +1,40 @@
+.form-transporte {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 30px;
+}
+
+.grupo-campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-campo label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--texto-secundario);
+}
+
+.grupo-campo input,
+.grupo-campo select {
+  padding: 12px 14px;
+  border-radius: var(--radio);
+  border: 1px solid var(--borde);
+  font-size: 14px;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus {
+  outline: none;
+  border-color: var(--primario);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.form-acciones {
+  grid-column: span 2;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

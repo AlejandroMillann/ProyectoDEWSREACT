@@ -1,0 +1,18 @@
+:root {
+  --fondo: #f1f5f9;
+  --superficie: #ffffff;
+  --borde: #e2e8f0;
+
+  --primario: #4f46e5;
+  --primario-hover: #4338ca;
+
+  --peligro: #ef4444;
+  --exito: #10b981;
+
+  --texto-principal: #0f172a;
+  --texto-secundario: #64748b;
+
+  --radio: 14px;
+  --sombra-suave: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --sombra-media: 0 8px 30px rgba(0, 0, 0, 0.08);
+}

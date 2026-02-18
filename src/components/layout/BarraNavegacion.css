@@ -1,0 +1,50 @@
+.barra {
+  background-color: var(--superficie);
+  border-bottom: 1px solid var(--borde);
+  padding: 18px 0;
+}
+
+.barra-contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.links {
+  display: flex;
+  gap: 28px;
+}
+
+.links button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--texto-secundario);
+  cursor: pointer;
+  padding-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.links button:hover {
+  color: var(--primario);
+}
+
+.links button.activo {
+  color: var(--primario);
+  border-bottom: 2px solid var(--primario);
+}
+
+.rol-switch select {
+  padding: 6px 10px;
+  border-radius: var(--radio);
+  border: 1px solid var(--borde);
+}

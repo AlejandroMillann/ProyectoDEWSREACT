@@ -1,0 +1,63 @@
+.grid-transportes-admin {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.card-admin {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hora {
+  font-size: 13px;
+  color: var(--texto-secundario);
+}
+
+.info-admin p {
+  font-size: 14px;
+  color: var(--texto-secundario);
+}
+
+.progreso-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progreso-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--texto-secundario);
+}
+
+.barra-progreso {
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.barra-relleno {
+  height: 100%;
+  background-color: var(--primario);
+  transition: width 0.3s ease;
+}
+
+.acciones-admin {
+  display: flex;
+  gap: 12px;
+}

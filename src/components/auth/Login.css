@@ -1,0 +1,42 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--fondo);
+}
+
+.login-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.campo label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--texto-secundario);
+}
+
+.campo input,
+.campo select {
+  padding: 10px 14px;
+  border-radius: var(--radio);
+  border: 1px solid var(--borde);
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.campo input:focus,
+.campo select:focus {
+  outline: none;
+  border-color: var(--primario);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}

@@ -1,0 +1,50 @@
+.tabla-admin {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-admin th {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 18px;
+  background-color: #f8fafc;
+  color: var(--texto-secundario);
+}
+
+.tabla-admin td {
+  padding: 18px;
+  border-top: 1px solid var(--borde);
+  font-size: 14px;
+}
+
+.tabla-admin tr:hover {
+  background-color: #f9fafb;
+}
+
+.badge-estado {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge-estado.activo {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--exito);
+}
+
+.badge-estado.cancelado {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--peligro);
+}
+
+.badge-estado.finalizado {
+  background-color: rgba(100, 116, 139, 0.15);
+  color: var(--texto-secundario);
+}
+
+.acciones {
+  display: flex;
+  gap: 12px;
+}

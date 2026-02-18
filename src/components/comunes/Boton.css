@@ -1,0 +1,26 @@
+.boton {
+  padding: 10px 18px;
+  border-radius: var(--radio);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.boton-primario {
+  background-color: var(--primario);
+  color: white;
+}
+
+.boton-primario:hover {
+  background-color: var(--primario-hover);
+}
+
+.boton-peligro {
+  background-color: var(--peligro);
+  color: white;
+}
+
+.boton-peligro:hover {
+  opacity: 0.9;
+}

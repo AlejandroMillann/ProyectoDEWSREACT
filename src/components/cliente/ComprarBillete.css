@@ -1,0 +1,49 @@
+.grid-transportes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.card-transporte {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.concierto {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--texto-secundario);
+  font-size: 14px;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.plazas {
+  font-size: 13px;
+  color: var(--exito);
+}
+
+.plazas.agotado {
+  color: var(--peligro);
+}
+
+.tarjeta:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease;
+}
